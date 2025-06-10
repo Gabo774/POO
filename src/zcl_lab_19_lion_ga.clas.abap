@@ -1,0 +1,20 @@
+CLASS zcl_lab_19_lion_ga DEFINITION INHERITING FROM zcl_lab_18_animal_ga
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  METHODS walk REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_19_lion_ga IMPLEMENTATION.
+    METHOD walk.
+        rv_walk = 'The lion walks'.
+    ENDMETHOD.
+
+
+ENDCLASS.

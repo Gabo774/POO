@@ -1,0 +1,15 @@
+CLASS zcl_lab_23_company_ga DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC
+  GLOBAL FRIENDS zcl_lab_24_partner_ga.
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+  DATA capital TYPE string VALUE 'capital'.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_23_company_ga IMPLEMENTATION.
+ENDCLASS.

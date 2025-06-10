@@ -1,0 +1,20 @@
+CLASS zcl_lab_20_person DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  DATA name TYPE string.
+  METHODS set_name IMPORTING iv_name TYPE string.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_20_person IMPLEMENTATION.
+  METHOD set_name.
+
+  ENDMETHOD.
+
+ENDCLASS.

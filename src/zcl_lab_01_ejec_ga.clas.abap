@@ -1,0 +1,17 @@
+CLASS zcl_lab_01_ejec_ga DEFINITION
+ PUBLIC
+ FINAL
+ CREATE PUBLIC .
+ PUBLIC SECTION.
+ INTERFACES if_oo_adt_classrun.
+ PROTECTED SECTION.
+ PRIVATE SECTION.
+ENDCLASS.
+CLASS ZCL_LAB_01_EJEC_GA IMPLEMENTATION.
+   METHOD if_oo_adt_classrun~main.
+
+       out->write( sy-uname ).
+
+   ENDMETHOD.
+ENDCLASS.
+
