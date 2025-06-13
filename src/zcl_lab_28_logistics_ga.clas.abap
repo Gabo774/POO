@@ -17,6 +17,6 @@ CLASS zcl_lab_28_logistics_ga IMPLEMENTATION.
         rv_line = 'production_line'.
     ENDMETHOD.
     METHOD input_products.
-        rv_input = 'input+products'.
+        rv_input = 'input_products'.
     ENDMETHOD.
 ENDCLASS.

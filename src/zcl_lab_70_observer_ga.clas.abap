@@ -1,0 +1,15 @@
+CLASS zcl_lab_70_observer_ga DEFINITION ABSTRACT
+  PUBLIC
+  "FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  METHODS on_get_noti ABSTRACT FOR EVENT get_noti OF zcl_lab_71_administrator_ga IMPOrting ev_noti.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_70_observer_ga IMPLEMENTATION.
+ENDCLASS.
